@@ -23,9 +23,9 @@ Potential false positives due to conservative substring-based SQLi detection
 Hard-coded Blynk token and Wi-Fi credentials present in the sketch (not secure)
 *************************************************************/
 
-#define BLYNK_TEMPLATE_ID "TMPL3z1pr2dja"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "HONEYPOT"
-#define BLYNK_AUTH_TOKEN "xqEGnZSSBj_8bZvi--XpGJ5mEHMiDRwA"
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_FIRMWARE_VERSION "0.6.0"
 
 #include <Arduino.h>
